@@ -46,10 +46,12 @@
     - we need initial state `state = { jellybeans: [] }`
     - `this.setState({ jellybeans: ourData })`
 1) In the `render` method, make a list of `divs` using `map`
-    - `{ this.state.jellybeans.map(jellybean => <div>
+    ```js
+    { this.state.jellybeans.map(jellybean => <div>
         <p>{jellybean.color}</p>
         <p>{jellybean.flavor}</p>
         <p>{jellybean.is_favorite}</p>
-    </div>)}`
+    </div>)}
+    ```
 
 ### Validation look at the react site  in chrome
