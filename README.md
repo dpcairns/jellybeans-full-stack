@@ -1,4 +1,4 @@
-e ## Make a full-stack 'list of things' -- list of jellybeans
+## Make a full-stack 'list of things' -- list of jellybeans
 
 ## Get jellybeans into the database
 1) `npx create-alchemy-sql-be jellybeans` to start the project 
